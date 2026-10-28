@@ -1,0 +1,45 @@
+@host = http://localhost:5080
+
+### Listar: 200
+GET {{host}}/api/misiones
+
+### Consultar: 200
+GET {{host}}/api/misiones/1
+
+### Crear: 201; completada será false aunque se envíe true
+POST {{host}}/api/misiones
+Content-Type: application/json
+
+{
+  "nombre": "Explorar la cueva",
+  "dificultad": "Media",
+  "recompensaXP": 250,
+  "completada": true
+}
+
+### Actualizar: 204 (usar el ID devuelto por POST)
+PUT {{host}}/api/misiones/4
+Content-Type: application/json
+
+{
+  "nombre": "Explorar la cueva",
+  "dificultad": "Difícil",
+  "recompensaXP": 500,
+  "completada": true
+}
+
+### Eliminar: 204
+DELETE {{host}}/api/misiones/4
+
+### Inexistente: 404
+GET {{host}}/api/misiones/999999
+
+### Datos inválidos: 400
+POST {{host}}/api/misiones
+Content-Type: application/json
+
+{
+  "nombre": " ",
+  "dificultad": "Extrema",
+  "recompensaXP": -1
+}

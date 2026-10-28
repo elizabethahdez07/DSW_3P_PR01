@@ -1,0 +1,5 @@
+[
+  { "Id": 1, "Nombre": "Recolectar hierbas", "Dificultad": "Fácil", "RecompensaXP": 100, "Completada": false },
+  { "Id": 2, "Nombre": "Rescatar al explorador", "Dificultad": "Media", "RecompensaXP": 350, "Completada": false },
+  { "Id": 3, "Nombre": "Derrotar al dragón", "Dificultad": "Difícil", "RecompensaXP": 1000, "Completada": true }
+]
