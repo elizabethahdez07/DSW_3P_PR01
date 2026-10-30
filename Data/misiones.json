@@ -1,5 +1,23 @@
 [
-  { "Id": 1, "Nombre": "Recolectar hierbas", "Dificultad": "Fácil", "RecompensaXP": 100, "Completada": false },
-  { "Id": 2, "Nombre": "Rescatar al explorador", "Dificultad": "Media", "RecompensaXP": 350, "Completada": false },
-  { "Id": 3, "Nombre": "Derrotar al dragón", "Dificultad": "Difícil", "RecompensaXP": 1000, "Completada": true }
+  {
+    "Id": 1,
+    "Nombre": "Encontrar la espada perdida",
+    "Dificultad": "F\u00E1cil",
+    "RecompensaXP": 100,
+    "Completada": false
+  },
+  {
+    "Id": 2,
+    "Nombre": "Rescatar al aldeano",
+    "Dificultad": "Media",
+    "RecompensaXP": 300,
+    "Completada": false
+  },
+  {
+    "Id": 3,
+    "Nombre": "Vencer al rey oscuro",
+    "Dificultad": "Dif\u00EDcil",
+    "RecompensaXP": 900,
+    "Completada": false
+  }
 ]

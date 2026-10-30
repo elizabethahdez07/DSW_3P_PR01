@@ -1,7 +1,7 @@
-# DSW_3P_PR01 — QuestLog
+﻿# DSW_3P_PR01 — QuestLog
 
 API REST de misiones, Etapa 1, con persistencia en JSON. Requiere SDK .NET 10.
-Sin SQL Server, Entity Framework ni paquetes NuGet externos.
+Sin SQL Server ni Entity Framework. Swagger/OpenAPI se sirve con Swashbuckle.
 
 ## Ejecutar
 
@@ -91,3 +91,4 @@ git commit -m "feat: implementar QuestLog etapa 1 con persistencia JSON"
 
 No se proporcionó un texto obligatorio de commit en la conversación disponible;
 se utiliza el mensaje anterior. No se publicó ningún repositorio remoto.
+
