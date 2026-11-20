@@ -1,11 +1,13 @@
 using DSW_3P_PR01.Models;
 using DSW_3P_PR01.Services;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 
 namespace DSW_3P_PR01.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
+[Authorize]
 public class MisionesController(IMisionService service) : ControllerBase
 {
     [HttpGet]
