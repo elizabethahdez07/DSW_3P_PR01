@@ -14,7 +14,9 @@ dotnet run --launch-profile http
 
 La API estará en http://localhost:5080/api/misiones. Abra el archivo
 DSW_3P_PR01.http en Visual Studio o un cliente compatible para ejecutar las
-peticiones en orden. También puede usar Postman. No se incluye Swagger.
+peticiones en orden. También puede usar Postman. En desarrollo, Swagger UI
+está disponible en http://localhost:5080/swagger y el documento OpenAPI en
+http://localhost:5080/openapi/v1.json.
 
 ## Organización
 
